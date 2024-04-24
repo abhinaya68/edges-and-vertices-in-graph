@@ -1,0 +1,8 @@
+graph=[(1,2),(2,3),(3,4),(4,5),(1,3),(2,4),(3,5)]
+vertexset=set()
+for edge in graph:
+    print(edge)
+    vertexset.add(edge[0])
+    vertexset.add(edge[1])
+print("number of vertices=",len(vertexset))
+print("number of edges=",len(graph))
